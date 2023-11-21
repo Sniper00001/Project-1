@@ -3,6 +3,7 @@ import "./App.css";
 import Navigation_bar from "./Components/Navigation_bar";
 import Textplc from "./Components/Textplc";
 import Alert from "./Components/Alert";
+import About from "./Components/About";
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
       <Navigation_bar title="Dexter" mode={mode} togglemode={togglefunction} />
       <Alert alert={alert}/>
       <Textplc showAlert={showAlert} heading="Enter The Text For Analysis" mode={mode} />
+      <About />
       
     </>
   );
